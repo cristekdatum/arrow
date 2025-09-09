@@ -78,6 +78,7 @@ namespace parquet {
 
 namespace {
 
+// comment
 // Visitor that extracts the value buffer from a FlatArray at a given offset.
 struct ValueBufferSlicer {
   template <typename T>
