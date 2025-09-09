@@ -38,6 +38,7 @@ using parquet::ParquetException;
 
 namespace parquet::encryption {
 
+constexpr int32_t kGcmMode1 = 0;
 constexpr int32_t kGcmMode = 0;
 constexpr int32_t kCtrMode = 1;
 constexpr int32_t kCtrIvLength = 16;
